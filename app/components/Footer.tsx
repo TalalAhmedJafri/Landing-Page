@@ -1,6 +1,6 @@
 import React from 'react';
 import { library } from '@fortawesome/fontawesome-svg-core';
-import { fab } from '@fortawesome/free-brands-svg-icons'; 
+import { faInstagram } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPhone, faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
@@ -18,10 +18,10 @@ return (
             <FontAwesomeIcon icon={faPhone} className='size-9' />
           </a>
       <a href="https://www.instagram.com/pixel_train_express/" className="text-pink-500 hover:text-purple-500">
-        <FontAwesomeIcon icon="fa-brands fa-instagram" className='size-10 ' />
+        <FontAwesomeIcon icon={faInstagram} className='size-10 ' />
       </a>
       <a href="mailto:pixeltrainexpress@email.com" className="text-red-400 hover:text-red-600">
-        <FontAwesomeIcon icon="fa-solid fa-envelope" className='size-10' />
+        <FontAwesomeIcon icon={faEnvelope} className='size-10' />
       </a>
     
     </div>
