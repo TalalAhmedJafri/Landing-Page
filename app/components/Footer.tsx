@@ -5,7 +5,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPhone, faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
 export default function Footer () {
-    library.add (fab);
   library.add (faEnvelope)
   library.add(faPhone)
 return (
