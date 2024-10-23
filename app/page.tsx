@@ -1,10 +1,7 @@
 
 export default function Home() {
   return (
-   
-
-   <div className='bg-white bg-no-repeat bg-center bg-cover'>
- 
+   <div className='bg-white'>
   <div>
   <section className=" text-black h-80 flex items-center justify-center">
       <div className="text-center max-w-3xl px-3 ">
@@ -12,7 +9,6 @@ export default function Home() {
         <p className="text-lg mb-6 font-mono">Discover Our amazing Work and services.</p>
         <button className="bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-700 transition duration-300 ease-in-out hover:scale-105 shadow-lg" >Learn More</button>
       </div>
-      
     </section>
       <section className=" text-black h-screen flex items-center justify-center">
         <div className="text-center max-w-2xl px-4">
@@ -55,12 +51,7 @@ export default function Home() {
         </div>
        </div>
       </section>
-     
-      
-
    </div>
-   
   </div>
-
   )
 }
